@@ -47,6 +47,10 @@ var main = function() {
 		currentDot.removeClass('active-dot');
 		prevDot.addClass('active-dot');
 	});
+
+	jQuery(document).ready(function(){
+       jQuery('selector').slippry()
+    });
 };
 
 $(document).ready(main);

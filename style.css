@@ -46,7 +46,10 @@
 .header {
 	height: 100px;
 	width: 100%;
- 	background-color: #445566;
+ 	background: -webkit-linear-gradient(#2E0854, #72587F); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2E0854, #72587F); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2E0854, #72587F); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2E0854, #72587F); /* Standard syntax */
   	border-bottom: 1px solid #AAA;
 
 	font-family: 'Oswald', sans-serif;
@@ -54,7 +57,7 @@
 }
 
 .header img {
-	width: 300px;
+	width: 400px;
 	height: 100px;
 	float: left;
 }
@@ -88,117 +91,6 @@
 	border-bottom: 1px solid #ddd;
 }
 
-.slide {
-	background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
-	background-size: cover;
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.active-slide {
-	display: block;
-}
-
-.slide-copy h1 {
-	color: #445566;
-
-	font-family: "Oswald", sans-serif;
-	font-weight: 400;
-
-	font-size: 40px;
-	margin-top: 105px;
-	margin-left: 45px;
-	margin-bottom: 0px;
-	width: 300px;
-	border: 1px solid #000;
-}
-
-.slide-copy p {
-  	color: #959595;
-  	font-family: Georgia, "Times New Roman", serif;
-  	font-size: 1.15em;
-  	line-height: 1.75em;
-  	margin-bottom: 15px;
-  	margin-left: 45px;
-  	margin-top: 16px;
-  	width: 300px;
-  	border: 1px solid #000;
-}
-
-.slide-img {
-  	text-align: right;
-  	width: 650px;
-  	height: 500px;
-  	float: left;
-  	border: 1px solid #000;
-}
-
-/** Slide Feature **/
-.slide-feature {
-	text-align: center;
-	height: 500px;
-}
-
-.slide-feature img {
-	margin-top: 112px;
-	margin-bottom: 28px;
-}
-
-.slide-feature a {
-	display: block;
-	color: #6fc5e0;
-
-	font-family: "HelveticaNeueMdCn", Helvetica sans-serif;
-	font-family: "Oswald", sans-serif;
-	font-weight: 400;
-
-	font-size: 20px;
-}
-
-.slider-nav {
-	text-align: center;
-	margin-top: 20px;
-}
-
-.arrow-prev {
-	margin-right: 45px;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 9px;
-}
-
-.arrow-prev:hover, .arrow-next:hover {
-	color: #445566;
-}
-
-.arrow-next {
-	margin-left: 45px;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 9px;
-}
-
-.slider-dots {
-	list-style: none;
-	display: inline-block;
-	padding-left: 0;
-	margin-bottom: 0;
-}
-
-.slider-dots li {
-	color: #bbbcbc;
-	display: inline;
-	font-size: 30px;
-	margin-right: 5px;
-}
-
-.slider-dots li.active-dot {
-	color: #363636;
-}
 
 /**
 
@@ -211,11 +103,15 @@ footer {
 	clear: both;
 	width: auto;
 	height: 75px;
-	background: #445566;
+	background: -webkit-linear-gradient(#72587F, #2E0854); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#72587F, #2E0854); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#72587F, #2E0854); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#72587F, #2E0854); /* Standard syntax */
 
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
+
 }
 
 footer .wrapper {
