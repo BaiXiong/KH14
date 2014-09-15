@@ -1,0 +1,65 @@
+body {
+/*    background:#EBDDE2;*/
+}
+
+body p {
+    font-size: 18px;
+}
+
+.khHeader {
+/*    background: -webkit-linear-gradient(#E6A9EC, #800080); *//* For Safari 5.1 to 6.0 *//*
+    background: -o-linear-gradient(#E6A9EC, #800080); *//* For Opera 11.1 to 12.0 *//*
+    background: -moz-linear-gradient(#E6A9EC, #800080); *//* For Firefox 3.6 to 15 *//*
+    background: linear-gradient(#E6A9EC, #800080); *//* Standard syntax */
+}
+
+.playballFont {
+    font-family: 'playball', cursive;
+    color: #7D0552;
+}
+
+.welcomeHeader {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.welcomeHeader h1  {
+    text-align: center;
+}
+
+.container p {
+    text-align: justify;
+}
+
+.pastor {
+    max-height: 275px;
+    max-width: 250px;
+}
+
+/** Contact Page Override CSS **/
+.jumbotron-sm {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.jumbotron small {
+color: #aaa;
+}
+.h1 small {
+    font-size: 22px;
+}
+
+/** Gallery Images **/
+.gallery img {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+.gallery img:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+
+}

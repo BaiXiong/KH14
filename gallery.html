@@ -3,16 +3,19 @@
 <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>King Hmong Kingdom</title>
+	<title>Keng Hmong Kingdom</title>
 
+    <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
     <link rel="stylesheet" href="css/sticky-footer.css" type="text/css">
+    <link rel="stylesheet" href="css/khStyle.css" type="text/css">
     <link rel="shortcut icon"  type="image/x-icon" href="http://www.vajloogkeebhmoob.org/favicon.ico" />
 
 </head>
 
 <body>
+        <div class="khHeader">
         <nav class="navbar navbar-default navbar-static-top visible-md-inline visible-lg-inline" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -21,72 +24,43 @@
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Our Belief [Ntseeg Leej Twg]</a></li>
+                                <li><a href="whoWeAre.html">Who We Are [Yog Leej Twg]</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown active">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Gallery</a></li>
+                                <li class="active"><a href="gallery.html">Gallery</a></li>
                                 <li><a href="#">Audio</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
 
             </div><!-- div container fluid-->
         </nav>
+        </div>
 
-        <!--<div class="container">-->
-            <!--<img src="images/pluajntaub1.png" height="400" width="125">-->
-            <!--<img src="images/tshwjChim.png" height="400" width="150">-->
-            <!--<img src="images/pluajntaub2.png" height="400" width="130">-->
-        <!--</div>-->
-
-        <div class="jumbotron">
-            <div class="container">
-                <h1>Welcome</h1>
-                <p>Kuv yog Kuv, ntawm tsev neeg Keeb Hmoob, zoo siab tos txais koj tuaj tsham txog ntawm peb tsev neeg Keeb Hmoob lub vas sab (website).</p>
+        <div class="container gallery">
+            <div class="row">
+                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="images/npojGuys.jpg" /></div>
+                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="images/npojGirls.jpg?width=300&height=200&scale=upscalecanvas" /></div>
+                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="http://blog.arborday.org/wp-content/uploads/2013/02/NEC1-300x200.jpg" /></div>
+                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="http://th03.deviantart.net/fs70/200H/f/2010/256/0/9/painting_of_nature_by_dhikagraph-d2ynalq.jpg" /></div>
+                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="http://www.virginia.org/uploadedImages/virginiaorg/Images/OrgImages/H/HamptonConventionVisitorBureau/Grandview_Nature_Preserve.jpg?width=300&height=200&scale=upscalecanvas" /></div>
+                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="http://th03.deviantart.net/fs70/200H/f/2010/256/0/9/painting_of_nature_by_dhikagraph-d2ynalq.jpg" /></div>
+                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" /></div>
+                <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="http://blog.arborday.org/wp-content/uploads/2013/02/NEC1-300x200.jpg" /></div>
             </div>
         </div>
 
-        <!-- slider -->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="images/youthBBQ.jpg" alt="Youth BBQ">
-                    <div class="carousel-caption">
-                        <h1>Youth BBQ</h1>
-                        <h1>August 16, 2014</h1>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="images/leesKais.jpg" alt="Lees Kais 2012">
-                    <div class="carousel-caption">
-                        <h1>Lees Kais '12</h1>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-        </div>
-
-
-    <div class="footer">
+        <div class="footer">
 		<div class="container">
 			<p class="text-muted">&copy; Copyright 2014 by <a href="http://www.vajloogkeebhmoob.org">Tuam Ceeb Vaj Loog Keeb Hmoob</a>. All Rights Reserved.</p>
 		</div>
