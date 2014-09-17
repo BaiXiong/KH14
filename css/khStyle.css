@@ -15,7 +15,8 @@ body p {
 
 .playballFont {
     font-family: 'playball', cursive;
-    color: #7D0552;
+    color: #FFDF00;
+    text-shadow: 2px 2px #000;
 }
 
 .welcomeHeader {
