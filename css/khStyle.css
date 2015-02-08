@@ -64,3 +64,9 @@ color: #aaa;
   -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
 
 }
+
+.keebCim {
+    height: 20%;
+    width: 20%;
+    align: center;
+}
