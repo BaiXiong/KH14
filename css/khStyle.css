@@ -68,5 +68,7 @@ color: #aaa;
 .keebCim {
     height: 20%;
     width: 20%;
-    align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
